@@ -23,13 +23,13 @@
         </svg>
       </div>
     </div>
-    <div class="col-4 px-0">
+    <div class="col-md-4 px-0 d-none d-md-block">
       <img src="./imgs/img1.webp" alt="Alliance" class="w-100 h-100 img-fluid" />
     </div>
-    <div class="col-4 px-0">
+    <div class="col-md-4 col-12 px-0">
       <img src="./imgs/img2.webp" alt="Alliance" class="w-100 h-100 img-fluid" />
     </div>
-    <div class="col-4 px-0">
+    <div class="col-md-4 px-0 d-none d-md-block">
       <img src="./imgs/img3.webp" alt="Alliance" class="w-100 h-100 img-fluid" />
     </div>
   </div>
@@ -59,13 +59,22 @@ export default {
     h1 {
       font-size: 67px;
       font-weight: 700;
+      @media (max-width: $md) {
+        font-size: 38px;
+      }
     }
     h2 {
       font-size: 32px;
       font-weight: 300;
+      @media (max-width: $md) {
+        font-size: 24px;
+      }
     }
     .arrow {
       position: relative;
+      @media (max-width: $md) {
+        width: 53px;
+      }
       svg {
         position: absolute;
         top: 70px;
@@ -74,6 +83,10 @@ export default {
         width: 53px;
         fill: $primary;
         transform: rotate(180deg);
+        @media (max-width: $md) {
+          top: 40px;
+          left: 0;
+        }
       }
     }
   }
