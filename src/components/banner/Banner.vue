@@ -58,7 +58,7 @@ export default {
     background-color: rgba(0, 0, 0, 0.1);
     h1 {
       font-size: 67px;
-      font-weight: 700;
+      font-weight: 900;
       @media (max-width: $lg) {
         font-size: 38px;
       }
