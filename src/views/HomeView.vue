@@ -1,13 +1,15 @@
 <template>
   <div>
-    <Banner id="banner" />
-    <Planos id="planos" />
+    <Banner />
+    <Planos />
+    <Modalidades />
   </div>
 </template>
 
 <script>
 import Banner from '@/components/banner/Banner.vue'
 import Planos from '@/components/planos/Planos.vue'
+import Modalidades from '@/components/modalidades/Modalidades.vue'
 
 export default {
   data() {
@@ -16,6 +18,7 @@ export default {
   components: {
     Banner,
     Planos,
+    Modalidades
   },
   computed: {
     currentPage() {

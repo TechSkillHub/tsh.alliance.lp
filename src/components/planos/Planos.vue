@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid d-flex align-itens-center px-0 py-5">
+  <div id="planos" class="container-fluid d-flex align-itens-center px-0 py-5">
     <div class="container d-flex flex-column justify-content-center text-center">
       <div class="row">
         <div class="col-12">
@@ -130,7 +130,7 @@ export default {
       }
     }
   }
-  @media (max-width: $md) {
+  @media (max-width: $lg) {
     .content {
       width: 100%;
       height: 560px;
@@ -149,7 +149,7 @@ export default {
             font-size: 20px;
           }
           h3 {
-            font-size: 18px;
+            font-size: 16px;
           }
           .table-header,
           .table-info-line {

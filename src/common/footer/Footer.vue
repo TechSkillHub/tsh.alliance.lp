@@ -30,6 +30,9 @@
 <script></script>
 
 <style lang="scss" scoped>
+.bg-dark {
+  margin-top: 150px;
+}
 footer {
   color: $primary;
   img {

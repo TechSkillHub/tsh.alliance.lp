@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid d-flex align-itens-center px-0">
+  <div id="banner" class="container-fluid d-flex align-itens-center px-0">
     <div class="title d-flex flex-column justify-content-center text-center">
       <h1>ALLIANCE JIU-JITSU TATUAPÉ</h1>
       <h2>Melhore sua saúde física e a consciência corporal.</h2>
@@ -59,20 +59,20 @@ export default {
     h1 {
       font-size: 67px;
       font-weight: 700;
-      @media (max-width: $md) {
+      @media (max-width: $lg) {
         font-size: 38px;
       }
     }
     h2 {
       font-size: 32px;
       font-weight: 300;
-      @media (max-width: $md) {
+      @media (max-width: $lg) {
         font-size: 24px;
       }
     }
     .arrow {
       position: relative;
-      @media (max-width: $md) {
+      @media (max-width: $lg) {
         width: 53px;
       }
       svg {
@@ -83,7 +83,7 @@ export default {
         width: 53px;
         fill: $primary;
         transform: rotate(180deg);
-        @media (max-width: $md) {
+        @media (max-width: $lg) {
           top: 40px;
           left: 0;
         }
