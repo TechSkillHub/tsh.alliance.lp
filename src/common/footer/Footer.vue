@@ -7,9 +7,7 @@
             <span>© 2023 Company, Inc</span>
           </div>
 
-          <ul
-            class="col-12 col-md-6 nav justify-content-center justify-content-md-end d-flex"
-          >
+          <ul class="col-12 col-md-6 nav justify-content-center justify-content-md-end d-flex">
             <li class="mx-3">
               <a href="http://www.instagram.com" target="_blank">
                 <img src="./imgs/instagram.svg" alt="Icon Instagram" />

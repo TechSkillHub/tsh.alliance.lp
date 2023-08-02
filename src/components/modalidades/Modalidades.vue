@@ -9,33 +9,48 @@
     <div class="container boxes">
       <div class="row d-flex justify-content-between text-center">
         <div class="col-12 col-lg">
-          <img src="./imgs/img1.webp" width="240" height="257" alt="" class="mb-4 img-fluid">
+          <img src="./imgs/img1.webp" width="240" height="257" alt="" class="mb-4 img-fluid" />
           <h2>Kids 1</h2>
-          <p class="px-4">Crianças podem praticar o Jiu-Jitsu a partir dos 04 anos de idade. As crianças aprendem dentro de um ambiente seguro e a aula é feita de forma lúdica e divertida.</p>
+          <p class="px-4">
+            Crianças podem praticar o Jiu-Jitsu a partir dos 04 anos de idade. As crianças aprendem
+            dentro de um ambiente seguro e a aula é feita de forma lúdica e divertida.
+          </p>
         </div>
         <div class="col-12 col-lg">
-          <img src="./imgs/img2.webp" width="240" height="257" alt="" class="mb-4 img-fluid">
+          <img src="./imgs/img2.webp" width="240" height="257" alt="" class="mb-4 img-fluid" />
           <h2>Kids 2</h2>
-          <p class="px-4">Prática com crianças a partir dos 08 aos 14 anos de idade. As crianças aprendem dentro de um ambiente seguro e a aula é feita de forma objetiva e disciplinar.</p>
+          <p class="px-4">
+            Prática com crianças a partir dos 08 aos 14 anos de idade. As crianças aprendem dentro
+            de um ambiente seguro e a aula é feita de forma objetiva e disciplinar.
+          </p>
         </div>
         <div class="col-12 col-lg">
-          <img src="./imgs/img3.webp" width="240" height="257" alt="" class="mb-4 img-fluid">
+          <img src="./imgs/img3.webp" width="240" height="257" alt="" class="mb-4 img-fluid" />
           <h2>Iniciantes</h2>
-          <p class="px-4">Método exclusivo da Alliance. O iniciante aprenderá nessa fase todos os fundamentos do Jiu-Jitsu. Nesse módulo não existe disputa propriamente dita.</p>
+          <p class="px-4">
+            Método exclusivo da Alliance. O iniciante aprenderá nessa fase todos os fundamentos do
+            Jiu-Jitsu. Nesse módulo não existe disputa propriamente dita.
+          </p>
         </div>
         <div class="col-12 col-lg">
-          <img src="./imgs/img4.webp" width="240" height="257" alt="" class="mb-4 img-fluid">
+          <img src="./imgs/img4.webp" width="240" height="257" alt="" class="mb-4 img-fluid" />
           <h2>Intermediário</h2>
-          <p class="px-4">Depois de passar pelo modo iniciante e aprender todas as técnicas e entender como funciona a luta o aluno passa a aprofundar seus conhecimentos e passa a treinar parcialmente.</p>
+          <p class="px-4">
+            Depois de passar pelo modo iniciante e aprender todas as técnicas e entender como
+            funciona a luta o aluno passa a aprofundar seus conhecimentos e passa a treinar
+            parcialmente.
+          </p>
         </div>
         <div class="col-12 col-lg">
-          <img src="./imgs/img5.webp" width="240" height="257" alt="" class="mb-4 img-fluid">
+          <img src="./imgs/img5.webp" width="240" height="257" alt="" class="mb-4 img-fluid" />
           <h2>Avançado</h2>
-          <p class="px-4">Nessa fase o aluno passa a receber conteúdo de alto nível de conhecimento, com técnicas variadas e atualizadas.</p>
+          <p class="px-4">
+            Nessa fase o aluno passa a receber conteúdo de alto nível de conhecimento, com técnicas
+            variadas e atualizadas.
+          </p>
         </div>
       </div>
       <button class="primary mx-auto my-5">Matricule-se já</button>
-
     </div>
   </div>
 </template>

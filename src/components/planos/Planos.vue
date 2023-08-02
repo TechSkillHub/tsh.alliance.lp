@@ -79,7 +79,7 @@ export default {
     color: $grey-4;
     font-weight: 300;
     @media (max-width: $md) {
-      font-size: 18px;;
+      font-size: 18px;
     }
   }
   .content {
@@ -123,7 +123,7 @@ export default {
           &.f-55 {
             font-size: 55px;
           }
-          >div span {
+          > div span {
             font-size: 31px;
           }
         }

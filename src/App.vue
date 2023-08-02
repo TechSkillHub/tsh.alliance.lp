@@ -17,12 +17,8 @@ export default {
     Header,
     Footer
   },
-  computed: {
-    
-  },
-  mounted() {
-    
-  },
+  computed: {},
+  mounted() {},
   watch: {}
 }
 </script>
