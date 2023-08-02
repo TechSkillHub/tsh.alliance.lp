@@ -1,5 +1,5 @@
 <template>
-  <div id="banner" class="container-fluid d-flex align-itens-center px-0">
+  <div id="banner" class="container-fluid d-flex px-0">
     <div class="title d-flex flex-column justify-content-center text-center">
       <h1>ALLIANCE JIU-JITSU TATUAPÉ</h1>
       <h2>Melhore sua saúde física e a consciência corporal.</h2>

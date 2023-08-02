@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav id="header" class="navbar navbar-expand-md navbar-dark">
+    <nav id="header" class="navbar">
       <img src="./imgs/logo.webp" width="254" height="87" alt="Alliance" class="img-fluid m-auto" />
     </nav>
   </div>

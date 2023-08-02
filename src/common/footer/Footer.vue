@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark border-top py-5">
+  <div class="bg-dark py-5">
     <footer class="container">
       <div class="row">
         <div class="d-flex flex-column flex-md-row align-items-center">
@@ -8,7 +8,7 @@
           </div>
 
           <ul
-            class="col-12 col-md-6 nav justify-content-center justify-content-md-end list-unstyled d-flex"
+            class="col-12 col-md-6 nav justify-content-center justify-content-md-end d-flex"
           >
             <li class="mx-3">
               <a href="http://www.instagram.com" target="_blank">
@@ -32,6 +32,7 @@
 <style lang="scss" scoped>
 .bg-dark {
   margin-top: 150px;
+  background-color: $grey-4;
 }
 footer {
   color: $primary;
