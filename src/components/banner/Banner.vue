@@ -23,14 +23,14 @@
         </svg>
       </div>
     </div>
-    <div class="col-md-4 px-0 d-none d-md-block">
-      <img src="./imgs/img1.webp" width="556" height="706" alt="Alliance" class="w-100 h-100 img-fluid" />
+    <div class="col-md-4 col-0 px-0">
+      <img src="./imgs/img1.webp" width="556" height="706" alt="Alliance" class="w-100 img-fluid" />
     </div>
     <div class="col-md-4 col-12 px-0">
-      <img src="./imgs/img2.webp" width="556" height="706" alt="Alliance" class="w-100 h-100 img-fluid" />
+      <img src="./imgs/img2.webp" width="556" height="706" alt="Alliance" class="w-100 img-fluid" />
     </div>
-    <div class="col-md-4 px-0 d-none d-md-block">
-      <img src="./imgs/img3.webp" width="556" height="706" alt="Alliance" class="w-100 h-100 img-fluid" />
+    <div class="col-md-4 col-0 px-0">
+      <img src="./imgs/img3.webp" width="556" height="706" alt="Alliance" class="w-100 img-fluid" />
     </div>
   </div>
 </template>
@@ -53,7 +53,7 @@ export default {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 5px;
     background-color: rgba(0, 0, 0, 0.1);
     h1 {
       font-size: 67px;
