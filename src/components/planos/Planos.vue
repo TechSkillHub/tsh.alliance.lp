@@ -77,7 +77,7 @@ export default {
     line-height: 1.6em;
     letter-spacing: 0.01em;
     color: $grey-4;
-    font-weight: 100;
+    font-weight: 300;
     @media (max-width: $md) {
       font-size: 18px;;
     }
