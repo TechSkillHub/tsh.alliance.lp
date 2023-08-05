@@ -5,6 +5,7 @@
     <Modalidades />
     <Personal />
     <Grade />
+    <Instalacao />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Planos from '@/components/planos/Planos.vue'
 import Modalidades from '@/components/modalidades/Modalidades.vue'
 import Personal from '@/components/personal/Personal.vue'
 import Grade from '@/components/grade/Grade.vue'
+import Instalacao from '@/components/instalacao/Instalacao.vue'
 
 export default {
   data() {
@@ -24,7 +26,8 @@ export default {
     Planos,
     Modalidades,
     Personal,
-    Grade
+    Grade,
+    Instalacao
   },
   computed: {
     currentPage() {
