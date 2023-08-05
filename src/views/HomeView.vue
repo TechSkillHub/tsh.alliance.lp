@@ -4,6 +4,7 @@
     <Planos />
     <Modalidades />
     <Personal />
+    <Grade />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Banner from '@/components/banner/Banner.vue'
 import Planos from '@/components/planos/Planos.vue'
 import Modalidades from '@/components/modalidades/Modalidades.vue'
 import Personal from '@/components/personal/Personal.vue'
+import Grade from '@/components/grade/Grade.vue'
 
 export default {
   data() {
@@ -21,7 +23,8 @@ export default {
     Banner,
     Planos,
     Modalidades,
-    Personal
+    Personal,
+    Grade
   },
   computed: {
     currentPage() {

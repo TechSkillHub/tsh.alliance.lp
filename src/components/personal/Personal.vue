@@ -1,5 +1,5 @@
 <template>
-  <div id="planos" class="container-fluid d-flex align-itens-center px-0 py-5">
+  <div id="personal" class="container-fluid d-flex align-itens-center px-0 py-5">
     <div class="container d-flex flex-column justify-content-center text-center">
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#planos {
+#personal {
   .content {
     width: 930px;
     height: 660px;
