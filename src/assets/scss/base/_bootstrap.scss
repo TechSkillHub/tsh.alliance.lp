@@ -132,6 +132,11 @@
   width: 100%;
 }
 
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
 .container,
 .container-fluid {
   --bs-gutter-x: 1.5rem;
@@ -184,6 +189,10 @@
   }
   .col-lg {
     flex: 1 0 0%;
+  }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
   }
 }
 

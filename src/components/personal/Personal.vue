@@ -12,7 +12,9 @@
                   Você precisa de um horário mais flexível? Também temos nossa modalidade de Aulas
                   VIP.
                 </p>
-                <button class="primary mx-auto mt-4">Matricule-se já</button>
+                <a href="https://api.whatsapp.com/send?phone=5511944295818" target="_blank">
+                  <button class="primary mx-auto mt-4">Matricule-se já</button>
+                </a>
               </div>
             </div>
           </div>

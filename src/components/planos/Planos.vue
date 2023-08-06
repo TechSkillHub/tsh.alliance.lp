@@ -7,7 +7,9 @@
             A Alliance Possui um método único de ensinamento, dividindo seus alunos por<br />
             grupos e níveis conforme seus objetivos e progresso no Jiu-Jitsu.
           </h3>
-          <button class="primary mx-auto my-5">Matricule-se já</button>
+          <a href="https://api.whatsapp.com/send?phone=5511944295818" target="_blank">
+            <button class="primary mx-auto my-5">Matricule-se já</button>
+          </a>
         </div>
       </div>
       <div class="row">

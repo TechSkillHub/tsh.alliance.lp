@@ -50,7 +50,9 @@
           </p>
         </div>
       </div>
-      <button class="primary mx-auto my-5">Matricule-se já</button>
+      <a href="https://api.whatsapp.com/send?phone=5511944295818" target="_blank">
+        <button class="primary mx-auto my-5">Matricule-se já</button>
+      </a>
     </div>
   </div>
 </template>
