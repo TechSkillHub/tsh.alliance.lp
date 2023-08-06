@@ -6,6 +6,7 @@
     <Personal />
     <Grade />
     <Instalacao />
+    <Whatsapp />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Modalidades from '@/components/modalidades/Modalidades.vue'
 import Personal from '@/components/personal/Personal.vue'
 import Grade from '@/components/grade/Grade.vue'
 import Instalacao from '@/components/instalacao/Instalacao.vue'
+import Whatsapp from '@/components/whatsapp/Whatsapp.vue'
 
 export default {
   data() {
@@ -27,7 +29,8 @@ export default {
     Modalidades,
     Personal,
     Grade,
-    Instalacao
+    Instalacao,
+    Whatsapp
   },
   computed: {
     currentPage() {
